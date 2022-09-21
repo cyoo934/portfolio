@@ -1,5 +1,5 @@
-@import "@fontsource/fira-mono";
-@import "./content/theme.scss";
+@import '@fontsource/fira-mono';
+@import './content/theme.scss';
 
 body {
   overflow-x: hidden;
@@ -171,4 +171,10 @@ button,
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--accent-tint-color);
+}
+
+@media (max-width: 600px) {
+  .scroll {
+    display: none;
+  }
 }
